@@ -1,0 +1,16 @@
+{
+	"name": "nidhifactory",
+	"properties": {
+		"encryption": {
+			"vaultBaseUrl": "https://mykeyvaultonetwo.vault.azure.net",
+			"keyName": "keyonee",
+			"keyVersion": "69f7533ac1b14867b56109f2bf01d94e"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "02961844-a20c-4fe4-b13a-ff5de2dbb4c2",
+		"tenantId": "adb53b4f-b05f-4dcb-a2e1-9111380568c3"
+	}
+}
