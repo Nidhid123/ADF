@@ -1,0 +1,22 @@
+{
+	"name": "nidhifactoryfour",
+	"properties": {
+		"encryption": {
+			"vaultBaseUrl": "https://mykeyvaultonetwo.vault.azure.net",
+			"keyName": "keyonee",
+			"keyVersion": "69f7533ac1b14867b56109f2bf01d94e"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "b147448f-d66f-40bf-80b6-19fc833f9ff6",
+		"tenantId": "adb53b4f-b05f-4dcb-a2e1-9111380568c3",
+		"userAssignedIdentities": {
+			"/subscriptions/4c99b2a6-98c2-4b6b-aaed-3bf3839a7e77/resourcegroups/az-policy-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/Adfidentity": {
+				"clientId": "8875306f-3677-4b95-be96-2d2e8433f96e",
+				"principalId": "57e007d4-9374-4db9-b9a8-24681b2eacc6"
+			}
+		}
+	}
+}
