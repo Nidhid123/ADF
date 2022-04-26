@@ -1,0 +1,22 @@
+{
+	"name": "positivecase",
+	"properties": {
+		"encryption": {
+			"vaultBaseUrl": "https://myvaultone.vault.azure.net",
+			"keyName": "keyonetwo",
+			"keyVersion": "8a9c3b89cd8d4ece92d4cc850cfc63ce"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "211ab442-fa70-4ce6-b2a7-3f4eb22f7964",
+		"tenantId": "5b973f99-77df-4beb-b27d-aa0c70b8482c",
+		"userAssignedIdentities": {
+			"/subscriptions/6696cecd-aa28-4d16-a1af-e1676d356ade/resourcegroups/Storagetest/providers/Microsoft.ManagedIdentity/userAssignedIdentities/identitytwo": {
+				"clientId": "1961f0b7-1880-42ff-8a2b-9b30464ee268",
+				"principalId": "f9d4de7b-1209-41e9-89a8-b95fb03c0d4a"
+			}
+		}
+	}
+}
