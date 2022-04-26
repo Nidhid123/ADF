@@ -1,0 +1,22 @@
+{
+	"name": "jkkkkkkkk",
+	"properties": {
+		"encryption": {
+			"vaultBaseUrl": "https://secondkeyvaulttt.vault.azure.net/",
+			"keyName": "keytesttwooo",
+			"keyVersion": "4dafe16f5fc94e62abd3a97906097dfe"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "c122a5dd-78ac-4ab3-bda0-c69fb49eb813",
+		"tenantId": "5b973f99-77df-4beb-b27d-aa0c70b8482c",
+		"userAssignedIdentities": {
+			"/subscriptions/6696cecd-aa28-4d16-a1af-e1676d356ade/resourcegroups/secondtestrg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/manidentitytwooo": {
+				"clientId": "f6daaf4a-284b-4fa3-92f3-3ddeb11246dd",
+				"principalId": "a55ed174-880c-43bf-a3d0-3c0de13f6fca"
+			}
+		}
+	}
+}
